@@ -17,6 +17,7 @@
     "prettier": "2.7.1"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.1"
   },
   "jest": {
@@ -35,7 +36,7 @@
       "ts-jest": {
         "tsConfigFile": "tsconfig.json"
       },
-      "_DEV_": true,
+      "_DEV_": true
     },
     "testMatch": [
       "**/_tests_/*.+(ts)"
